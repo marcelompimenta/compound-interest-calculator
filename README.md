@@ -59,8 +59,8 @@ Aplicação que calcula os juros sobre um valor de investimento inicial e acumul
     yarn dev
 > Depois de feito isso o projeto ira rodar os scripts para gerar o build e executar o codigo gerando o resultado no console.  
 
-> O Versão do Node na criação do projeto
+> Versão do Node na criação do projeto
 
     16.13.0
 
-> Em caso de erro na compilação observe a versão do node na sua maquina, talvez seja necessário fazer o donwgrade
+> Em caso de erro na compilação observe a versão do node na sua maquina, talvez seja necessário fazer o downgrade
