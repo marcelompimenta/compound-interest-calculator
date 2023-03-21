@@ -6,15 +6,15 @@ interface IArgs {
 
 function calculate(args: IArgs) {
     let periodInMonths = args.period * 12
-    let amount = 0, acumulate = args.valueLiquid;
+    let amount = 0, accumulate = args.valueLiquid;
 
     for (let i = 0; i < periodInMonths; i++) {
-        amount = (acumulate * args.percent) / 100
-        acumulate += amount
+        amount = (accumulate * args.percent) / 100
+        accumulate += amount
     }
 
     return {
-        acc: Number(acumulate.toFixed(2)),
+        acc: Number(accumulate.toFixed(2)),
         period: periodInMonths,
         fees: args.percent
     }
